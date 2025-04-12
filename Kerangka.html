@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Battle Game</title>
+    <link rel="stylesheet" href="Desain.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Knowledge Battle Arena</h1>
+
+      <div id="game-content">
+        <div class="battle-area">
+          <div class="character">
+            <div class="character-avatar">🧙</div>
+            <div class="health-bar-container">
+              <div class="health-bar" id="player-health-bar"></div>
+            </div>
+            <div class="health-text" id="player-health-text">
+              Health: 100/100
+            </div>
+          </div>
+
+          <div class="enemy">
+            <div class="enemy-avatar" id="enemy-avatar">👹</div>
+            <div class="health-bar-container">
+              <div class="health-bar" id="enemy-health-bar"></div>
+            </div>
+            <div class="health-text" id="enemy-health-text">Health: 50/50</div>
+          </div>
+        </div>
+
+        <div class="status-info">
+          <div class="status-box" id="question-counter">Question: 1/10</div>
+          <div class="status-box" id="score-display">Score: 0</div>
+          <div class="status-box" id="enemy-count">Enemies Defeated: 0/5</div>
+        </div>
+
+        <div class="progress-container">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+        <div class="quiz-section">
+          <div class="question" id="question-text">Loading question...</div>
+
+          <div class="options-container" id="options-container">
+            <!-- Options will be inserted here -->
+          </div>
+
+          <div class="feedback" id="feedback"></div>
+        </div>
+
+        <div class="animation-container">
+          <div class="attack-animation" id="attack-animation"></div>
+        </div>
+
+        <div class="battle-log" id="battle-log">
+          <div class="log-entry">
+            Battle started! Answer questions correctly to attack!
+          </div>
+        </div>
+
+        <div class="button-container">
+          <button id="skip-btn">Skip Question</button>
+          <button id="next-btn" class="next-btn" disabled>Answer</button>
+        </div>
+
+        <div class="game-over" id="game-over">Game Over!</div>
+        <div class="victory" id="victory">Victory!</div>
+      </div>
+
+      <div class="result-container" id="result-container">
+        <div class="result-title">Battle Completed!</div>
+        <div class="score" id="final-score">0/10</div>
+        <div id="performance-text">Great effort, warrior!</div>
+        <div class="quiz-footer">
+          <button id="restart-btn">Battle Again</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="Pertanyaan.js"></script>
+    <script src="Otak.js"></script>
+  </body>
+</html>
