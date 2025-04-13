@@ -2,69 +2,75 @@
 
 const allQuestions = [
   {
-    question: "What is the capital of France?",
-    options: ["London", "Berlin", "Paris", "Madrid"],
-    correct: 2,
-    explanation: "Paris is the capital and most populous city of France.",
+    question: "apa aplikasi favorit saat ini?",
+    options: ["Tiktok", "Youtube", "Chrome", "Google"],
+    correct: 0,
+    explanation: " Tiktok adalah aplikasi populer saat ini.",
   },
   {
-    question: "Which planet is known as the Red Planet?",
-    options: ["Venus", "Mars", "Jupiter", "Saturn"],
-    correct: 1,
-    explanation:
-      "Mars is called the Red Planet because of its reddish appearance due to iron oxide (rust) on its surface.",
-  },
-  {
-    question: "What is the largest ocean on Earth?",
+    question: "uu yang berbicara tentang penggunaan media sosial?",
     options: [
-      "Atlantic Ocean",
-      "Indian Ocean",
-      "Arctic Ocean",
-      "Pacific Ocean",
+      "Undang-Undang Nomor 28 Tahun 2024 tentang hak cipta",
+      "Undang-Undang Nomor 23 Tahun 2002 tentang perlindungan anak",
+      "Undang-Undang Nomor 19 Tahun 2016 tentang informasi dan transaksi elektronik",
+      "Undang-Undang Nomor 13 Tahun 2003 tentang keternagakerjaan",
     ],
-    correct: 3,
+    correct: 2,
     explanation:
-      "The Pacific Ocean is the largest and deepest ocean on Earth, covering more than 30% of the Earth's surface.",
+      "Undang-Undang Nomor 19 Tahun 2016 tentang informasi dan transaksi elektronik adalah uu yang berbicara tentang media sosial.",
   },
   {
-    question: "Who wrote 'Romeo and Juliet'?",
+    question: " apa dampak dari penggunaan tiktok secara berlebihan?",
     options: [
-      "Charles Dickens",
-      "William Shakespeare",
-      "Jane Austen",
-      "Mark Twain",
+      "membuat kita menjadi pintar",
+      "membuat penurunan moral",
+      "menjadi seorang yang peduli",
+      "menjadi menarik",
     ],
     correct: 1,
     explanation:
-      "Romeo and Juliet was written by William Shakespeare around 1595.",
+      "dampak dari penggunaan tiktok secara berlebihan membuat penurunan moral.",
   },
   {
-    question: "What is the chemical symbol for gold?",
-    options: ["Go", "Gd", "Au", "Ag"],
-    correct: 2,
+    question:
+      "berapa banyak hukuman yang akan diterima pelaku pelanggaran hukum akibat media sosial'?",
+    options: ["1-2 Tahun", "6-12 Tahun", "10-15 Tahun", "5-10 Tahun"],
+    correct: 1,
     explanation:
-      "Au is the chemical symbol for gold, derived from the Latin word 'aurum'.",
+      "hukuman yang akan diterima pelaku pelanggaran hukum akibat media sosial adalah 6-12 Tahun.",
   },
   {
-    question: "Which of these is not a programming language?",
-    options: ["Python", "Java", "Banana", "Ruby"],
-    correct: 2,
+    question:
+      " siapa yang bertanggung jawab untuk pengembang siswa di sekolah?",
+    options: ["guru", "orang tua", "dokter", "polisi"],
+    correct: 0,
     explanation:
-      "Banana is not a programming language. Python, Java, and Ruby are all popular programming languages.",
+      "yang bertanggung jawab untuk pengembang siswa di sekolah adalah guru.",
   },
   {
-    question: "What is the smallest prime number?",
-    options: ["0", "1", "2", "3"],
+    question:
+      ";program apa yang dapat mendukung kemajuan remaja akibat penggunaan tiktok secara berlebihan?",
+    options: ["SOSMED", "SOBAT", "AKRAB", "PARAS"],
     correct: 2,
     explanation:
-      "2 is the smallest prime number. A prime number is a natural number greater than 1 that is not divisible by any number other than 1 and itself.",
+      "program apa yang dapat mendukung kemajuan remaja akibat penggunaan tiktok secara berlebihan adalah PARAS.",
   },
   {
-    question: "Which country is home to the kangaroo?",
-    options: ["New Zealand", "South Africa", "Australia", "Brazil"],
+    question: "Pasal berapakah yang membahas tentang UU ITE?",
+    options: [
+      "Pasal 45 ayat 1",
+      "Pasal 27 ayat 3",
+      "Pasal 28 ayat 2",
+      "Pasal 29",
+    ],
+    correct: 0,
+    explanation: "Pasal yang membahas UU ITE adalah Pasal 45 ayat 1.",
+  },
+  {
+    question: "sistem pemerintahan di indonesia?",
+    options: ["monarki", "demokrasi", "republik", "presiden"],
     correct: 2,
-    explanation:
-      "Kangaroos are native to Australia and are one of the country's most recognizable symbols.",
+    explanation: "sistem pemerintahan di indonesia adalah republik.",
   },
   {
     question: "How many sides does a hexagon have?",
