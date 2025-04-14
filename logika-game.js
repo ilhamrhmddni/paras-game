@@ -338,6 +338,14 @@ function nextQuestion() {
   }
 }
 
+const anim = document.getElementById("attack-animation");
+anim.classList.add("playerAttack");
+anim.style.display = "block";
+setTimeout(() => {
+  anim.classList.remove("playerAttack");
+  anim.style.display = "none";
+}, 1000);
+
 function gameOver() {
   gameState.gameOver = true;
   gameOverDisplay.style.display = "block";

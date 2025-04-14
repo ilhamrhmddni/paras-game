@@ -1,163 +1,216 @@
-// questions.js - Contains all quiz questions
-
 const allQuestions = [
   {
-    question: "apa aplikasi favorit saat ini?",
+    question: "Apa aplikasi favorit saat ini?",
     options: ["Tiktok", "Youtube", "Chrome", "Google"],
     correct: 0,
-    explanation: " Tiktok adalah aplikasi populer saat ini.",
+    explanation: "Tiktok adalah aplikasi populer saat ini.",
   },
   {
-    question: "uu yang berbicara tentang penggunaan media sosial?",
+    question: "UU yang berbicara tentang penggunaan media sosial?",
     options: [
-      "Undang-Undang Nomor 28 Tahun 2024 tentang hak cipta",
-      "Undang-Undang Nomor 23 Tahun 2002 tentang perlindungan anak",
-      "Undang-Undang Nomor 19 Tahun 2016 tentang informasi dan transaksi elektronik",
-      "Undang-Undang Nomor 13 Tahun 2003 tentang keternagakerjaan",
+      "Undang-Undang Nomor 28 Tahun 2024 tentang Hak Cipta",
+      "Undang-Undang Nomor 23 Tahun 2002 tentang Perlindungan Anak",
+      "Undang-Undang Nomor 19 Tahun 2016 tentang Informasi dan Transaksi Elektronik",
+      "Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan",
     ],
     correct: 2,
     explanation:
-      "Undang-Undang Nomor 19 Tahun 2016 tentang informasi dan transaksi elektronik adalah uu yang berbicara tentang media sosial.",
+      "Undang-Undang Nomor 19 Tahun 2016 tentang Informasi dan Transaksi Elektronik adalah UU yang berbicara tentang media sosial.",
   },
   {
-    question: " apa dampak dari penggunaan tiktok secara berlebihan?",
+    question: "Apa dampak dari penggunaan Tiktok secara berlebihan?",
     options: [
-      "membuat kita menjadi pintar",
-      "membuat penurunan moral",
-      "menjadi seorang yang peduli",
-      "menjadi menarik",
+      "Membuat kita menjadi pintar",
+      "Membuat penurunan moral",
+      "Menjadi seorang yang peduli",
+      "Menjadi menarik",
     ],
     correct: 1,
     explanation:
-      "dampak dari penggunaan tiktok secara berlebihan membuat penurunan moral.",
+      "Dampak dari penggunaan Tiktok secara berlebihan adalah penurunan moral.",
   },
   {
     question:
-      "berapa banyak hukuman yang akan diterima pelaku pelanggaran hukum akibat media sosial'?",
+      "Berapa banyak hukuman yang akan diterima pelaku pelanggaran hukum akibat media sosial?",
     options: ["1-2 Tahun", "6-12 Tahun", "10-15 Tahun", "5-10 Tahun"],
     correct: 1,
     explanation:
-      "hukuman yang akan diterima pelaku pelanggaran hukum akibat media sosial adalah 6-12 Tahun.",
+      "Hukuman yang akan diterima pelaku pelanggaran hukum akibat media sosial adalah 6-12 Tahun.",
   },
   {
-    question:
-      " siapa yang bertanggung jawab untuk pengembang siswa di sekolah?",
-    options: ["guru", "orang tua", "dokter", "polisi"],
+    question: "Siapa yang bertanggung jawab untuk pengembang siswa di sekolah?",
+    options: ["Guru", "Orang tua", "Dokter", "Polisi"],
     correct: 0,
     explanation:
-      "yang bertanggung jawab untuk pengembang siswa di sekolah adalah guru.",
+      "Yang bertanggung jawab untuk pengembang siswa di sekolah adalah guru.",
   },
   {
     question:
-      ";program apa yang dapat mendukung kemajuan remaja akibat penggunaan tiktok secara berlebihan?",
+      "Program apa yang dapat mendukung kemajuan remaja akibat penggunaan Tiktok secara berlebihan?",
     options: ["SOSMED", "SOBAT", "AKRAB", "PARAS"],
-    correct: 2,
+    correct: 3,
     explanation:
-      "program apa yang dapat mendukung kemajuan remaja akibat penggunaan tiktok secara berlebihan adalah PARAS.",
+      "Program yang dapat mendukung kemajuan remaja akibat penggunaan Tiktok secara berlebihan adalah PARAS.",
   },
   {
     question: "Pasal berapakah yang membahas tentang UU ITE?",
     options: [
-      "Pasal 45 ayat 1",
-      "Pasal 27 ayat 3",
-      "Pasal 28 ayat 2",
+      "Pasal 45 Ayat 1",
+      "Pasal 27 Ayat 3",
+      "Pasal 28 Ayat 2",
       "Pasal 29",
     ],
     correct: 0,
-    explanation: "Pasal yang membahas UU ITE adalah Pasal 45 ayat 1.",
+    explanation: "Pasal yang membahas UU ITE adalah Pasal 45 Ayat 1.",
   },
   {
-    question: "sistem pemerintahan di indonesia?",
-    options: ["monarki", "demokrasi", "republik", "presiden"],
+    question: "Sistem pemerintahan di Indonesia?",
+    options: ["Monarki", "Demokrasi", "Republik", "Presiden"],
     correct: 2,
-    explanation: "sistem pemerintahan di indonesia adalah republik.",
+    explanation: "Sistem pemerintahan di Indonesia adalah Republik.",
   },
   {
-    question: "How many sides does a hexagon have?",
-    options: ["5", "6", "7", "8"],
-    correct: 1,
-    explanation:
-      "A hexagon has 6 sides. The prefix 'hex' comes from Greek and means six.",
-  },
-  {
-    question: "What is the main ingredient in guacamole?",
-    options: ["Avocado", "Tomato", "Lime", "Onion"],
-    correct: 0,
-    explanation:
-      "Avocado is the main ingredient in guacamole, a dip of Mexican origin.",
-  },
-  {
-    question: "Which element has the chemical symbol 'O'?",
-    options: ["Gold", "Oxygen", "Osmium", "Oganesson"],
-    correct: 1,
-    explanation:
-      "O is the chemical symbol for Oxygen, one of the most abundant elements on Earth.",
-  },
-  {
-    question: "What is the capital of Japan?",
-    options: ["Seoul", "Beijing", "Tokyo", "Bangkok"],
-    correct: 2,
-    explanation: "Tokyo is the capital and largest city of Japan.",
-  },
-  {
-    question: "Which planet is closest to the Sun?",
-    options: ["Venus", "Earth", "Mars", "Mercury"],
-    correct: 3,
-    explanation:
-      "Mercury is the closest planet to the Sun in our solar system.",
-  },
-  {
-    question: "What is the largest mammal on Earth?",
-    options: ["African Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
-    correct: 1,
-    explanation:
-      "The Blue Whale is the largest mammal on Earth, reaching lengths of up to 100 feet.",
-  },
-  {
-    question: "Which of these is not a type of cloud?",
-    options: ["Cumulus", "Stratus", "Cirrus", "Gladius"],
-    correct: 3,
-    explanation:
-      "Gladius is not a type of cloud. It's actually a type of Roman sword. The main cloud types include Cumulus, Stratus, and Cirrus.",
-  },
-  {
-    question: "What is the hardest natural substance on Earth?",
-    options: ["Diamond", "Platinum", "Steel", "Titanium"],
-    correct: 0,
-    explanation:
-      "Diamond is the hardest known natural substance on Earth, composed of carbon atoms arranged in a crystal structure.",
-  },
-  {
-    question: "What is the currency of the United Kingdom?",
-    options: ["Euro", "Dollar", "Pound Sterling", "Yen"],
-    correct: 2,
-    explanation:
-      "The Pound Sterling (£) is the official currency of the United Kingdom.",
-  },
-  {
-    question: "Who painted the Mona Lisa?",
+    question: "Apa yang membuat moral remaja sekarang menurun?",
     options: [
-      "Vincent van Gogh",
-      "Pablo Picasso",
-      "Leonardo da Vinci",
-      "Michelangelo",
+      "Keterampilan dalam mengolah media sosial",
+      "Penggunaan Tiktok secara berlebihan",
+      "Memposting poster 'Free Palestine'",
+      "Kurangnya pendidikan karakter",
+    ],
+    correct: 1,
+    explanation:
+      "Penggunaan Tiktok secara berlebihan dapat menyebabkan penurunan moral remaja.",
+  },
+  {
+    question: "Apa yang membuat aplikasi Tiktok banyak diminati remaja?",
+    options: [
+      "Karena aplikasi tersebut memiliki fitur dan jenis konten yang beragam",
+      "Karena tren",
+      "Karena banyak peminatnya",
+      "Karena tidak membutuhkan kuota",
+    ],
+    correct: 0,
+    explanation:
+      "Fitur dan jenis konten yang beragam membuat Tiktok diminati remaja.",
+  },
+  {
+    question:
+      "Sebutkan fitur apa saja yang gemar digunakan para remaja di aplikasi Tiktok?",
+    options: [
+      "Fitur rekaman, filter, efek, dan live streaming",
+      "Pengeditan",
+      "Vidio",
+      "Duet dan stitch",
+    ],
+    correct: 0,
+    explanation:
+      "Fitur yang sering digunakan remaja di Tiktok adalah rekaman, filter, efek, dan live streaming.",
+  },
+  {
+    question:
+      "Berikut dampak negatif penggunaan Tiktok yang berlebihan pada kesehatan remaja, kecuali:",
+    options: [
+      "Mengganggu waktu belajar dan waktu tidur",
+      "Pengaruh negatif pada tingkat fokus dan pola pikir",
+      "Memiliki wawasan yang luas",
+      "Mengalami kecemasan berlebih",
     ],
     correct: 2,
     explanation:
-      "The Mona Lisa was painted by Leonardo da Vinci in the early 16th century.",
+      "Memiliki wawasan yang luas bukan dampak negatif penggunaan Tiktok berlebihan.",
   },
   {
-    question: "Which of these is not a primary color?",
-    options: ["Red", "Blue", "Yellow", "Green"],
-    correct: 3,
+    question: "Apa dampak negatif AI pada dunia pendidikan?",
+    options: [
+      "Membuat pekerjaan menjadi lebih mudah",
+      "Ketergantungan kepada AI sehingga membuat para remaja malas membaca dan hanya meng-copypaste jawaban yang ada",
+      "Adanya AI lebih memperlihatkan maksud dari 'zaman modern' yang serba canggih dan kemajuan teknologi",
+      "Membantu guru menyusun materi",
+    ],
+    correct: 1,
     explanation:
-      "Green is not a primary color. The primary colors are red, blue, and yellow.",
+      "Ketergantungan pada AI membuat siswa cenderung malas dan hanya menyalin jawaban.",
   },
   {
-    question: "What is the main component of the Earth's atmosphere?",
-    options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    question: "Apa dampak dari cyberbullying?",
+    options: [
+      "Memiliki risiko depresi yang tinggi",
+      "Menjadi pribadi yang kuat",
+      "Meningkatkan ketahanan mental",
+      "Menjadi lebih terkenal",
+    ],
+    correct: 0,
+    explanation: "Cyberbullying dapat menyebabkan risiko depresi yang tinggi.",
+  },
+  {
+    question:
+      "Mengapa anak berusia kurang dari 10 tahun tidak diperbolehkan mengakses media sosial?",
+    options: [
+      "Karena belum memiliki kemampuan untuk memahami konten yang tidak sesuai usia",
+      "Karena takut lebih populer dari orang tuanya",
+      "Karena memiliki kecerdasan di atas rata-rata",
+      "Karena harus fokus belajar dan bermain",
+    ],
+    correct: 0,
+    explanation:
+      "Anak usia <10 tahun belum mampu menyaring konten yang tidak sesuai usia.",
+  },
+  {
+    question: "Apa saja peluang bisnis yang populer di era digital?",
+    options: [
+      "Influencer dan content creator",
+      "Gamers",
+      "Comedian",
+      "Dropshipper dan affiliate marketing",
+    ],
+    correct: 0,
+    explanation:
+      "Influencer dan content creator adalah bisnis populer di era digital.",
+  },
+  {
+    question: "Apa itu media sosial?",
+    options: [
+      "Alat komunikasi tradisional",
+      "Hanya untuk bisnis",
+      "Platform untuk berbagi informasi",
+      "Surat kabar digital",
+    ],
     correct: 2,
+    explanation: "Media sosial adalah platform untuk berbagi informasi.",
+  },
+  {
+    question: "Apa tujuan utama dari media sosial?",
+    options: [
+      "Berkomunikasi dan berbagi informasi",
+      "Menghabiskan waktu",
+      "Hiburan",
+      "Menjual barang",
+    ],
+    correct: 0,
     explanation:
-      "Nitrogen makes up about 78% of Earth's atmosphere, making it the main component.",
+      "Tujuan utama media sosial adalah berkomunikasi dan berbagi informasi.",
+  },
+  {
+    question: "Apa yang dimaksud 'viral' di media sosial?",
+    options: [
+      "Konten yang tidak menarik",
+      "Konten yang dibagikan secara luas",
+      "Konten yang berbayar",
+      "Konten lawas yang diangkat kembali",
+    ],
+    correct: 1,
+    explanation: "'Viral' berarti konten yang tersebar luas dengan cepat.",
+  },
+  {
+    question: "Apa yang dimaksud dengan 'influencer'?",
+    options: [
+      "Seseorang yang memiliki pengaruh di media sosial",
+      "Seorang jurnalis",
+      "Seorang pengiklan",
+      "Pemilik perusahaan media",
+    ],
+    correct: 0,
+    explanation:
+      "Influencer adalah orang yang memiliki pengaruh di media sosial.",
   },
 ];

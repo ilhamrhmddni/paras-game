@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="game-container">
-      <h1>PARAS BATTLE GAME</h1>
+      <h1>PERMAINAN PERTEMPURAN PARAS</h1>
 
       <div id="game-content">
         <div class="battle-area">
@@ -18,7 +18,7 @@
               <div class="health-bar" id="player-health-bar"></div>
             </div>
             <div class="health-text" id="player-health-text">
-              Health: 100/100
+              Kesehatan: 100/100
             </div>
           </div>
 
@@ -27,14 +27,16 @@
             <div class="health-bar-container">
               <div class="health-bar" id="enemy-health-bar"></div>
             </div>
-            <div class="health-text" id="enemy-health-text">Health: 50/50</div>
+            <div class="health-text" id="enemy-health-text">
+              Kesehatan: 50/50
+            </div>
           </div>
         </div>
 
         <div class="status-info">
-          <div class="status-box" id="question-counter">Question: 1/10</div>
-          <div class="status-box" id="score-display">Score: 0</div>
-          <div class="status-box" id="enemy-count">Enemies Defeated: 0/5</div>
+          <div class="status-box" id="question-counter">Pertanyaan: 1/10</div>
+          <div class="status-box" id="score-display">Skor: 0</div>
+          <div class="status-box" id="enemy-count">Musuh Dikalahkan: 0/5</div>
         </div>
 
         <div class="progress-container">
@@ -42,10 +44,10 @@
         </div>
 
         <div class="quiz-section">
-          <div class="question" id="question-text">Loading question...</div>
+          <div class="question" id="question-text">Memuat pertanyaan...</div>
 
           <div class="options-container" id="options-container">
-            <!-- Options will be inserted here -->
+            <!-- Opsi akan dimasukkan di sini -->
           </div>
 
           <div class="feedback" id="feedback"></div>
@@ -57,25 +59,25 @@
 
         <div class="battle-log" id="battle-log">
           <div class="log-entry">
-            pertempuran started! Answer questions correctly to attack!
+            Pertempuran dimulai! Jawab pertanyaan dengan benar untuk menyerang!
           </div>
         </div>
 
         <div class="button-container">
-          <button id="skip-btn">Skip Question</button>
-          <button id="next-btn" class="next-btn" disabled>Answer</button>
+          <button id="skip-btn">Lewati Pertanyaan</button>
+          <button id="next-btn" class="next-btn" disabled>Jawab</button>
         </div>
 
-        <div class="game-over" id="game-over">Game Over!</div>
-        <div class="victory" id="victory">Victory!</div>
+        <div class="game-over" id="game-over">Permainan Berakhir!</div>
+        <div class="victory" id="victory">Kemenangan!</div>
       </div>
 
       <div class="result-container" id="result-container">
-        <div class="result-title">Battle Completed!</div>
+        <div class="result-title">Pertempuran Selesai!</div>
         <div class="score" id="final-score">0/10</div>
-        <div id="performance-text">Great effort, warrior!</div>
+        <div id="performance-text">Usaha yang hebat, pejuang!</div>
         <div class="quiz-footer">
-          <button id="restart-btn">Battle Again</button>
+          <button id="restart-btn">Bertempur Lagi</button>
         </div>
       </div>
     </div>
